@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhamad Choirudin Ashari</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body background="asset/doraemon.jpg">
+    <!--header-->
+    <div class="header">
+      <p class="logo">Kalkulator Segitiga</p>
+    </div>
+    <div class="isi">
+      <h1>selamat datang</h1>
+      <p class="opening">
+        kalkulator ini dapat digunakan untuk menghitung keliling dan luas
+        segitiga
+      </p>
+      <!--isi-->
+
+      <!--tamplikan gambar Segitiga-->
+      <div class="gambar">
+        <img src="asset/segitiga.JPG" alt="gambar segitiga" />
+      </div>
+    </div>
+    <br />
+    <!--container rumus-->
+    <div class="container">
+      <table>
+        <tr>
+          <td>
+            <div class="keliling">
+              <h2>hitung keliling segitiga</h2>
+              <!--tempat input keliling segitiga-->
+              <div class="masukan">
+                <p>masukan panjang AB :</p>
+                <input type="number" placeholder="panjang AB" />
+                <p>masukan panjang AC :</p>
+                <input type="number" placeholder="panjang AC" />
+                <p>masukan panjang BC :</p>
+                <input type="number" placeholder="panjang BC" />
+              </div>
+              <div class="output">
+                <button class="hitung">hitung</button>
+                <button class="reset">reset</button>
+                <br />
+                <p class="hasil">hasil anda adalah : ...</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="luas">
+              <h2>hitung luas segitiga</h2>
+              <!--tempat input luas segitiga-->
+              <div class="masukan">
+                <p>masukan tinggi segitiga</p>
+                <input type="number" placeholder="tinggi" />
+                <p>masukan alas segitiga</p>
+                <input type="number" placeholder="alas" />
+              </div>
+              <div class="output">
+                <button class="hitung">hitung</button>
+                <button class="reset">reset</button>
+                <br />
+                <p class="hasil">hasil anda adalah : ...</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!--footer-->
+    <footer><p class="footer">terima kasih</p></footer>
+  </body>
+</html>
